@@ -1,5 +1,6 @@
-Files
-/.env
+# Files
+.env
+.json
 /test/.env
 /test/venv
 /test/params.json
