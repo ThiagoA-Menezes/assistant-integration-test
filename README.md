@@ -1,8 +1,6 @@
 ## Test Locally
 
-## Attention, if you have python installed on your local machine, check your python command running the code below:
-## If this message is shown, please check your Python installation
-## command not found: python
+### Attention, if you have python installed on your local machine, check your python command running the code below: If this message is shown, please check your Python installation command not found: python
 
 ```bash
 python3.12 --version
@@ -12,8 +10,7 @@ python3 --version
 python --version
 ```
 
-# If one of these commands runs successfully, use it with your pip command like, e.g python3.12 runs successfully, your pip command 
-# should be implemented like this pip3.12 install..
+### If one of these commands runs successfully, use it with your pip command like, e.g python3.12 runs successfully, your pip command should be implemented like this pip3.12 install..
 
 - Select the test folder
 
