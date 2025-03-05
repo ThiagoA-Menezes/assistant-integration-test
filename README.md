@@ -1,6 +1,6 @@
 ## Test Locally
 
-### This code was developed by Edu Petecof to integrate Assistant with AWS, so my need was to integrate with IBM Cloud, I also have used IA to adjust some part of my code and to implement the logging library.
+### This code was developed by Edu Petecof to integrate Assistant with AWS, so my need was to integrate with IBM Cloudm that's why I have adapted it to load into IBM Cloud, I also have used IA to adjust some part of my code and to implement the logging library.
 
 ### Attention, if you have python installed on your local machine, check your python command running the code below: If this message is shown, please check your Python installation command not found: python
 
