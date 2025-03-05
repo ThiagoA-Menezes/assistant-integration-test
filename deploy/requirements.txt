@@ -1,0 +1,11 @@
+ibm-cos-sdk==2.14.0
+python-dotenv==1.0.1
+jsonpatch==1.33
+jsonpointer==3.0.0
+dataclasses-json==0.6.7
+orjson==3.10.14
+os-sys==2.1.4
+
+# -e git+https://github.com/ibm/ibm-cos-sdk-python-core.git@master#egg=ibm_cos_sdk_core
+# -e git+https://github.com/boto/jmespath.git@develop#egg=jmespath
+# -e git+https://github.com/ibm/ibm-cos-sdk-python-s3transfer.git@master#egg=ibm_cos_sdk_s3transfer

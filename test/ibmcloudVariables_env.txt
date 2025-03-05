@@ -1,0 +1,15 @@
+# Get the list of Endpoints by using this link https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints, 
+# your endpoint must have the https://endpoint/
+export COS_ENDPOINT= https://yourEndpoint/
+
+# ibm_api_key_id is the value found in the Service Credential as apikey. When creating the bucket, 
+# please opt to enable the HMAC when creating a service credential. You should be able to read this APIKey on the first lines.
+export COS_API_KEY_ID= yourAPIKey
+
+# This CRN can be obtained on the JSON file downloaded after the Service Credential created
+# or on the Instance of your bucket, you can click on details and get the CRN.
+
+export COS_SERVICE_CRN= crn:storageName::
+
+# COS Name 
+export ibm_cloud_bucket_name="bucket-name"

@@ -1,0 +1,209 @@
+{
+   "payload":[
+      {
+         "assistant_id":"410f59ad-f50f-4588-9c5d-be46f5474e52",
+         "customer_id":"IBMid-6650016CK1",
+         "language":"pt",
+         "log_id":"ac9cc948-5b6d-4fc3-a313-07bdb4234da4",
+         "request":{
+            "context":{
+               "conversation_id":"df309740-4f87-436e-b1d6-7b73e2da69f6",
+               "global":{
+                  "system":{
+                     "timezone":"America/Sao_Paulo",
+                     "user_id":"IBMid-6650016CK1"
+                  }
+               },
+               "integrations":{
+                  "channel":{
+                     "name":"Web chat"
+                  },
+                  "chat":{
+                     "browser_info":{
+                        "browser_OS":"Mac OS",
+                        "browser_name":"chrome",
+                        "browser_version":"133.0.0",
+                        "client_ip_address":"177.45.215.95",
+                        "ip_address_list":[
+                           "177.45.215.95",
+                           " 2.21.66.143",
+                           "10.138.225.83",
+                           "172.30.231.0"
+                        ],
+                        "language":"en-US",
+                        "page_url":"https://au-syd.assistant.watson.cloud.ibm.com/crn%3Av1%3Abluemix%3Apublic%3Aconversation%3Aau-syd%3Aa%2Fdb9b0b21f66c464b92beb191bd4519bd%3A05355733-5202-4d85-9931-883316151583%3A%3A/assistants/651877c2-3597-4ca6-9835-b7c0aebf51cd/actions/actions/custom",
+                        "screen_resolution":"width: 1920, height: 1080",
+                        "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+                     }
+                  }
+               },
+               "metadata":{
+                  "user_id":"IBMid-6650016CK1"
+               },
+               "skills":{
+                  "actions skill":{
+                     "system":{
+                        
+                     },
+                     "user_defined":{
+                        
+                     }
+                  },
+                  "main skill":{
+                     "system":{
+                        
+                     }
+                  }
+               },
+               "system":{
+                  "assistant_id":"410f59ad-f50f-4588-9c5d-be46f5474e52",
+                  "dialog_request_counter":1,
+                  "dialog_turn_counter":1
+               }
+            },
+            "input":{
+               "message_type":"text",
+               "options":{
+                  "alternate_intents":true,
+                  "alternate_responses":true,
+                  "async_callout":true,
+                  "debug":true,
+                  "disambiguation":{
+                     "alternate_responses":false
+                  },
+                  "export":true,
+                  "return_context":true,
+                  "skip_user_input":true,
+                  "suggestion_only":false
+               },
+               "source":{
+                  "id":"IBMid-6650016CK1",
+                  "type":"user"
+               },
+               "text":""
+            }
+         },
+         "request_timestamp":"2025-02-21T19:32:07.225Z",
+         "response":{
+            "context":{
+               "conversation_id":"df309740-4f87-436e-b1d6-7b73e2da69f6",
+               "global":{
+                  "session_id":"df309740-4f87-436e-b1d6-7b73e2da69f6",
+                  "system":{
+                     "session_start_time":"2025-02-21T19:32:07.188Z",
+                     "skip_user_input":true,
+                     "state":"eyJuYW1lIjoiZHJhZnQiLCJza2lsbHMiOlt7ImNvbmZpZyI6eyJhY3Rpb25zIjpmYWxzZSwid29ya3NwYWNlX2lkIjoiMGRlMjFmMmEtZWJhMS00MDAyLWE0Y2ItMmI0NWU4YjFjZGQ0Iiwic2tpbGxfcmVmZXJlbmNlX2lkIjpudWxsfSwiZGlzYWJsZWQiOnRydWUsImxhbmd1YWdlIjoicHQtYnIiLCJza2lsbF9pZCI6IjBkZTIxZjJhLWViYTEtNDAwMi1hNGNiLTJiNDVlOGIxY2RkNCIsInNraWxsX3R5cGUiOiJkaWFsb2ciLCJza2lsbF9yZWZlcmVuY2UiOiJtYWluIHNraWxsIiwic3lzdGVtX3NldHRpbmdzIjp7InRvcGljX3N3aXRjaCI6eyJkaWdyZXNzaW9uX2hhbmRsZXIiOm51bGx9LCJnZW5lcmF0aXZlX2FpIjp7Im1vZGVsX2lkIjpudWxsLCJoYXBfZmlsdGVyIjpudWxsLCJwcm9tcHRfaW5zdHJ1Y3Rpb24iOm51bGx9fSwic2tpbGxfc25hcHNob3RfaWQiOm51bGwsInNraWxsX3NuYXBzaG90X25hbWUiOm51bGx9LHsiY29uZmlnIjp7ImFjdGlvbnMiOnRydWUsIndvcmtzcGFjZV9pZCI6IjI0NGVmOWYyLTk1OWYtNDBlNC05M2JhLWJkZmQ2ZDAxYzIzMyIsInNraWxsX3JlZmVyZW5jZV9pZCI6bnVsbH0sImRpc2FibGVkIjpmYWxzZSwibGFuZ3VhZ2UiOiJwdC1iciIsInNraWxsX2lkIjoiMjQ0ZWY5ZjItOTU5Zi00MGU0LTkzYmEtYmRmZDZkMDFjMjMzIiwic2tpbGxfdHlwZSI6ImFjdGlvbiIsInNraWxsX3JlZmVyZW5jZSI6ImFjdGlvbnMgc2tpbGwiLCJzeXN0ZW1fc2V0dGluZ3MiOnsidG9waWNfc3dpdGNoIjp7ImRpZ3Jlc3Npb25faGFuZGxlciI6bnVsbH0sImdlbmVyYXRpdmVfYWkiOnsibW9kZWxfaWQiOiJpYm0vZ3Jhbml0ZS0zLThiLWluc3RydWN0IiwiaGFwX2ZpbHRlciI6bnVsbCwicHJvbXB0X2luc3RydWN0aW9uIjpudWxsfX0sInNraWxsX3NuYXBzaG90X2lkIjpudWxsLCJza2lsbF9zbmFwc2hvdF9uYW1lIjpudWxsfSx7ImNvbmZpZyI6eyJtZXNzYWdlIjpudWxsLCJ2ZXJzaW9uIjoiMjAxOC0xMi0wMyIsImhpZ2hsaWdodCI6bnVsbCwiaW5zdGFuY2VfaWQiOm51bGwsImNvbGxlY3Rpb25faWQiOm51bGwsImRpc2NvdmVyeV91cmwiOm51bGwsImVycm9yX21lc3NhZ2UiOm51bGwsImVudmlyb25tZW50X2lkIjpudWxsLCJyZXN1bHRzX3Blcl9wYWdlIjpudWxsLCJtYXhfdG90YWxfcmVzdWx0cyI6bnVsbCwibm9fcmVzdWx0X21lc3NhZ2UiOm51bGwsInBhZ2luYXRpb25fZW5hYmxlZCI6ZmFsc2UsIm1heF9wcmltYXJ5X3Jlc3VsdHMiOm51bGwsInNjaGVtYV9tYXBwaW5nX2JvZHkiOm51bGwsImJhc2ljX2F1dGhlbnRpY2F0aW9uIjpudWxsLCJzY2hlbWFfbWFwcGluZ190aXRsZSI6bnVsbCwiY3VzdG9tX3NjaGVtYV9tYXBwaW5ncyI6bnVsbH0sImRpc2FibGVkIjp0cnVlLCJsYW5ndWFnZSI6Inh4Iiwic2tpbGxfaWQiOiI2NmQwOWJhNC0xZjViLTRkMDctOGI0Yi05MmQwNjFiNWRmYjgiLCJza2lsbF90eXBlIjoic2VhcmNoIiwic2tpbGxfcmVmZXJlbmNlIjoic2VhcmNoIHNraWxsIiwic3lzdGVtX3NldHRpbmdzIjp7InRvcGljX3N3aXRjaCI6eyJkaWdyZXNzaW9uX2hhbmRsZXIiOm51bGx9LCJnZW5lcmF0aXZlX2FpIjp7Im1vZGVsX2lkIjpudWxsLCJoYXBfZmlsdGVyIjpudWxsLCJwcm9tcHRfaW5zdHJ1Y3Rpb24iOm51bGx9fSwic2tpbGxfc25hcHNob3RfaWQiOm51bGwsInNraWxsX3NuYXBzaG90X25hbWUiOm51bGx9XSwibGFuZ3VhZ2UiOiJwdC1iciIsInByb3ZpZGVycyI6W10sInJ1bnRpbWVfaWQiOiI0MTBmNTlhZC1mNTBmLTQ1ODgtOWM1ZC1iZTQ2ZjU0NzRlNTIiLCJlbnZpcm9ubWVudCI6ImRyYWZ0IiwiaW5zdGFuY2VfaWQiOiIwNTM1NTczMy01MjAyLTRkODUtOTkzMS04ODMzMTYxNTE1ODMiLCJhc3Npc3RhbnRfaWQiOiI2NTE4NzdjMi0zNTk3LTRjYTYtOTgzNS1iN2MwYWViZjUxY2QiLCJjZXJ0aWZpY2F0ZXMiOltdLCJlbnZpcm9ubWVudF9pZCI6IjQxMGY1OWFkLWY1MGYtNDU4OC05YzVkLWJlNDZmNTQ3NGU1MiIsImRpc2FibGVfZmFsbGJhY2siOnRydWUsInBhcmVudF9hc3Npc3RhbnRfaWQiOiI2NTE4NzdjMi0zNTk3LTRjYTYtOTgzNS1iN2MwYWViZjUxY2QiLCJjZXJ0aWZpY2F0aW9uX21ldGhvZCI6InVuYXV0aG9yaXplZCIsImRpc2FibGVfc2Vzc2lvbl9oaXN0b3J5IjpmYWxzZSwiYWN0aXZlX3NraWxsIjoiYWN0aW9ucyBza2lsbCJ9",
+                     "timezone":"America/Sao_Paulo",
+                     "turn_count":1,
+                     "user_id":"IBMid-6650016CK1"
+                  }
+               },
+               "integrations":{
+                  "channel":{
+                     "name":"Web chat"
+                  },
+                  "chat":{
+                     "browser_info":{
+                        "browser_OS":"Mac OS",
+                        "browser_name":"chrome",
+                        "browser_version":"133.0.0",
+                        "client_ip_address":"177.45.215.95",
+                        "ip_address_list":[
+                           "177.45.215.95",
+                           " 2.21.66.143",
+                           "10.138.225.83",
+                           "172.30.231.0"
+                        ],
+                        "language":"en-US",
+                        "page_url":"https://au-syd.assistant.watson.cloud.ibm.com/crn%3Av1%3Abluemix%3Apublic%3Aconversation%3Aau-syd%3Aa%2Fdb9b0b21f66c464b92beb191bd4519bd%3A05355733-5202-4d85-9931-883316151583%3A%3A/assistants/651877c2-3597-4ca6-9835-b7c0aebf51cd/actions/actions/custom",
+                        "screen_resolution":"width: 1920, height: 1080",
+                        "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+                     }
+                  }
+               },
+               "metadata":{
+                  "user_id":"IBMid-6650016CK1"
+               },
+               "skills":{
+                  "actions skill":{
+                     "action_variables":{
+                        "step_360":true
+                     },
+                     "skill_variables":{
+                        
+                     },
+                     "system":{
+                        "state":"eyJzZXNzaW9uX3N0YXJ0X3RpbWUiOiIyMDI1LTAyLTIxVDE5OjMyOjA3LjE4OFoiLCJzZXNzaW9uX2lkIjoiZGYzMDk3NDAtNGY4Ny00MzZlLWIxZDYtN2I3M2UyZGE2OWY2Iiwic2tpbGxfcmVmZXJlbmNlIjoiYWN0aW9ucyBza2lsbCIsImFzc2lzdGFudF9pZCI6IjQxMGY1OWFkLWY1MGYtNDU4OC05YzVkLWJlNDZmNTQ3NGU1MiIsImRpZ3Jlc3NlZF9mcm9tIjpudWxsLCJzaGFkb3dfdmFyaWFibGVzIjp7Imludm9jYXRpb25fc291cmNlIjp7ImV2YWx1YXRlZF9wZW5kaW5nX3Jlc29sdmVyIjpmYWxzZSwiaW50ZW50cyI6W10sImVudGl0aWVzIjpbXSwiaW5wdXQiOnsidGV4dCI6IiJ9LCJyZXN1bHRfdmFyaWFibGUiOiJzdGVwXzM2MF9yZXN1bHRfMSIsImlzX3Rvb2xpbmdfcmVxdWVzdCI6dHJ1ZX19LCJoaXRzX2NvdW50IjowLCJub19hY3Rpb25fbWF0Y2hlc19jb3VudCI6MCwiYWN0aW9uX3N0YWNrIjpbeyJhY3Rpb24iOiJ3ZWxjb21lIiwiYWN0aW9uX3N0YXJ0X3RpbWUiOiIyMDI1LTAyLTIxVDE5OjMyOjA3LjI4MTA0OTcxNVoiLCJwZW5kaW5nX3Jlc29sdmVyIjp7InR5cGUiOiJzdGVwIiwiY2FsbG91dF9ldmFsdWF0ZWQiOmZhbHNlLCJzdGVwIjoic3RlcF8zNjAifX1dLCJwcml2YXRlX3ZhcmlhYmxlc19lbmNyeXB0ZWQiOmZhbHNlfQ=="
+                     }
+                  },
+                  "main skill":{
+                     "system":{
+                        
+                     }
+                  }
+               }
+            },
+            "output":{
+               "debug":{
+                  "auto_learn":{
+                     "reports":{
+                        "lists":{
+                           "auto_learn_mode":"off"
+                        }
+                     }
+                  },
+                  "log_messages":[
+                     
+                  ],
+                  "turn_events":[
+                     {
+                        "action_start_time":"2025-02-21T19:32:07.281049715Z",
+                        "condition_type":"welcome",
+                        "event":"action_visited",
+                        "reason":"intent",
+                        "source":{
+                           "action":"welcome",
+                           "action_title":"Greet customer",
+                           "type":"action"
+                        }
+                     },
+                     {
+                        "action_start_time":"2025-02-21T19:32:07.281049715Z",
+                        "event":"step_visited",
+                        "first_step":true,
+                        "source":{
+                           "action":"welcome",
+                           "action_title":"Greet customer",
+                           "step":"step_360",
+                           "type":"step"
+                        }
+                     }
+                  ]
+               },
+               "entities":[
+                  
+               ],
+               "generic":[
+                  
+               ],
+               "intents":[
+                  
+               ],
+               "log_messages":[
+                  
+               ],
+               "text":[
+                  
+               ]
+            },
+            "user_id":"IBMid-6650016CK1"
+         },
+         "response_timestamp":"2025-02-21T19:32:07.295Z",
+         "session_id":"df309740-4f87-436e-b1d6-7b73e2da69f6",
+         "skill_id":"244ef9f2-959f-40e4-93ba-bdfd6d01c233"
+      }
+   ],
+   "pagination":{
+      
+   }
+}

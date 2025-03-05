@@ -1,0 +1,8 @@
+Files
+/.env
+/test/.env
+/test/venv
+/test/params.json
+.DS_Store
+/test/__pycache__
+*.pyc
